@@ -22,4 +22,5 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/miniku
 sudo mv minikube /usr/local/bin
 
 echo at this point, reboot. After reboot, manually run as non-root
-echo minikube start --memory 4096 --vm-driver=kvm2echo also use usermod -aG libvirt $USER where $USER is the name of the user that is going to start minikube
+echo minikube start --memory 4096 --vm-driver=kvm2
+echo also use usermod -aG libvirt $USER where $USER is the name of the user that is going to start minikube
