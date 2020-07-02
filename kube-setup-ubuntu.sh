@@ -23,4 +23,8 @@ sudo mv minikube /usr/local/bin
 
 echo at this point, reboot. After reboot, manually run as non-root
 echo minikube start --memory 4096 --vm-driver=kvm2
+echo minikube status
+echo minikube stop
+echo minikube start
+echo minikube delete
 echo also use usermod -aG libvirt $USER where $USER is the name of the user that is going to start minikube
